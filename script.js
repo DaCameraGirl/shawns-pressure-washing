@@ -6,9 +6,6 @@ const sealantInput = document.querySelector("#sealant");
 const quoteTotal = document.querySelector("#quote-total");
 const quoteSummary = document.querySelector("#quote-summary");
 const quoteMail = document.querySelector("#quote-mail");
-const comparisonSlider = document.querySelector("#comparison-slider");
-const beforeLayer = document.querySelector("#before-layer");
-const comparisonHandle = document.querySelector("#comparison-handle");
 const bookingForm = document.querySelector("#booking-form");
 const formStatus = document.querySelector("#form-status");
 const year = document.querySelector("#year");
@@ -20,16 +17,29 @@ const serviceLabels = {
   storefront: "Storefront rinse"
 };
 
+const servicePricing = {
+  driveway: { minimum: 150, rate: 0.28 },
+  house: { minimum: 300, rate: 0.30 },
+  deck: { minimum: 200, rate: 0.40 },
+  storefront: { minimum: 500, rate: 0.52 }
+};
+
+function cleanNumber(value, fallback = 0) {
+  const number = Number(value);
+  return Number.isFinite(number) ? number : fallback;
+}
+
 function dollars(value) {
+  const safeValue = Number.isFinite(value) ? value : 0;
   return new Intl.NumberFormat("en-US", {
     style: "currency",
     currency: "USD",
     maximumFractionDigits: 0
-  }).format(value);
+  }).format(safeValue);
 }
 
 function selectedGrime() {
-  return Number([...grimeInputs].find((input) => input.checked)?.value ?? 0);
+  return cleanNumber([...grimeInputs].find((input) => input.checked)?.value, 0);
 }
 
 function selectedGrimeLabel() {
@@ -40,12 +50,14 @@ function selectedGrimeLabel() {
 function updateQuote() {
   const selected = serviceSelect.selectedOptions[0];
   const service = serviceSelect.value;
-  const size = Number(sizeInput.value);
-  const minimum = Number(selected.dataset.min);
-  const rate = Number(selected.dataset.rate);
+  const size = cleanNumber(sizeInput.value, 1200);
+  const configured = servicePricing[service] ?? servicePricing.driveway;
+  const legacyBase = cleanNumber(selected?.dataset.base, configured.minimum);
+  const minimum = cleanNumber(selected?.dataset.min, legacyBase);
+  const rate = cleanNumber(selected?.dataset.rate, configured.rate);
   const basePrice = Math.max(minimum, size * rate);
   const conditionCharge = basePrice * selectedGrime();
-  const protectantRate = Number(sealantInput.value);
+  const protectantRate = cleanNumber(sealantInput.value, 0.12);
   const protectant = sealantInput.checked ? Math.max(75, size * protectantRate) : 0;
   const total = Math.ceil((basePrice + conditionCharge + protectant) / 5) * 5;
   const sealantText = sealantInput.checked ? " plus protectant" : "";
@@ -55,12 +67,6 @@ function updateQuote() {
   quoteTotal.textContent = dollars(total);
   quoteSummary.textContent = summary;
   quoteMail.href = `mailto:shawn@example.com?subject=${encodeURIComponent("Pressure washing quote request")}&body=${encodeURIComponent(`${summary}\nEstimated total: ${dollars(total)}\n\nPlease send photos and the service address for a final quote.`)}`;
-}
-
-function updateComparison() {
-  const value = `${comparisonSlider.value}%`;
-  beforeLayer.style.width = value;
-  comparisonHandle.style.left = value;
 }
 
 function handleBookingSubmit(event) {
@@ -89,9 +95,7 @@ function handleBookingSubmit(event) {
   control.addEventListener("change", updateQuote);
 });
 
-comparisonSlider.addEventListener("input", updateComparison);
 bookingForm.addEventListener("submit", handleBookingSubmit);
 year.textContent = new Date().getFullYear();
 
 updateQuote();
-updateComparison();

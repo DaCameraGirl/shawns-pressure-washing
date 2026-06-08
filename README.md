@@ -1,115 +1,87 @@
-💦🧼 Shawn’s Pressure Washing
-A clean, friendly, GitHub Pages–ready site for a pressure washing business.
+# 💦🧼 Shawn's Pressure Washing
+
+🚿 A clean, GitHub Pages-ready service site for Shawn's Pressure Washing in the Ladson and Charleston, South Carolina area.
+
+🌐 **Live site:** https://dacameragirl.github.io/shawns-pressure-washing/
+
 <p align="center">
-<img src="https://raw.githubusercontent.com/DaCameraGirl/shawns-pressure-washing/main/assets/rider-wash-scene.svg" width="80%" />
+  <img src="https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge&logo=github" alt="Status: Live" />
+  <img src="https://img.shields.io/badge/Hosting-GitHub%20Pages-blue?style=for-the-badge&logo=githubpages" alt="Hosting: GitHub Pages" />
+  <img src="https://img.shields.io/badge/Build-Static%20HTML%2FCSS%2FJS-orange?style=for-the-badge" alt="Build: Static HTML CSS JavaScript" />
+  <img src="https://img.shields.io/badge/Dependencies-None-ff69b4?style=for-the-badge" alt="Dependencies: None" />
 </p>
 
-🏷️ Badges
-<p align="center">
-<img src="https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge&logo=github" />
-<img src="https://img.shields.io/badge/Built%20With-HTML%20%7C%20CSS%20%7C%20JS-blue?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Hosting-GitHub%20Pages-purple?style=for-the-badge&logo=githubpages" />
-<img src="https://img.shields.io/badge/Dependencies-None-ff69b4?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Estimator-Interactive-orange?style=for-the-badge" />
-</p>
+## ✨ What It Does
 
-🌐 Live Demo
-🔗 https://dacameragirl.github.io/shawns-pressure-washing/ (dacameragirl.github.io in Bing)
+- 🏍️ Shows a trailer/equipment hero image with the anonymous rider cropped out
+- 💵 Estimates local pressure washing jobs using Ladson/Charleston-area pricing ranges
+- 🧼 Shows a real siding wash before/after photo
+- 📬 Creates email-based quote and booking requests
+- 📱 Works on phones, tablets, laptops, and desktops
+- 🚀 Runs as a static site on GitHub Pages with no backend required
 
-✨ Features
-🧽 Interactive Quote Estimator
+## 🧰 Languages Used
 
-🔄 Before/After Image Slider
+| Language | Used For |
+| --- | --- |
+| 🧱 HTML | Page structure, forms, service sections, booking markup, and SEO basics |
+| 🎨 CSS | Responsive layout, hero image treatment, quote UI, cards, spacing, and mobile styling |
+| ⚙️ JavaScript | Quote calculator, email request links, booking form behavior, and current year |
+| 📝 Markdown | README, project notes, pricing sources, and documentation |
 
-🎨 Custom SVG Hero Art
+## 📁 Project Files
 
-📬 Mailto‑based Booking Form
-
-⚡ Zero Dependencies (pure HTML/CSS/JS)
-
-📱 Mobile‑friendly layout
-
-🌐 Instant GitHub Pages deployment
-
-🌙 Dark Mode Preview
-<p align="center">
-<img src="https://raw.githubusercontent.com/DaCameraGirl/shawns-pressure-washing/main/assets/darkmode-preview.png" width="80%" />
-</p>
-
-(If you want, I can generate this preview image for real — just say the word.)
-
-💰 Pricing Logic (June 2026 Research)
-Service	Typical Range
-🚗 Driveway / Concrete	$0.20–$0.30 per sq ft (common $100–$300)
-🏡 House Wash	$0.10–$0.50 per sq ft (common $200–$700)
-🪵 Deck / Patio	$0.25–$0.35 per sq ft
-🏪 Storefront / Light Commercial	$0.10–$0.40 per sq ft
-
-
-📌 These are planning estimates — real quotes depend on stain severity, water access, chemicals, insurance, travel, and photos/site visits.
-
-⭐ Why Choose Us
-🧼 Professional Results
-We use proper pressure and soft‑wash techniques to protect surfaces while restoring curb appeal.
-
-💵 Transparent Pricing
-The estimator gives customers a realistic starting point before booking.
-
-⚡ Fast Response
-Mailto booking means customers can reach out instantly from any device.
-
-🖼️ Visual Confidence
-Before/after slider shows real transformation potential.
-
-📱 Mobile‑First
-Designed to look great on phones, tablets, and desktops.
-
-🛠️ Run Locally
-Just open:
-
-Code
-index.html
-No installs. No build step. No dependencies.
-
-🚀 Deploy on GitHub Pages
-Push the folder to a GitHub repo
-
-Go to Settings → Pages
-
-Set Source: Deploy from a branch
-
-Choose main + /root
-
-Save & publish
-
-🔧 Customize Next
-✉️ Replace shawn@example.com in script.js
-
-💵 Update service prices in index.html
-
-📸 Swap SVG mascot for real business photos
-
-⭐ Add reviews, service area, insurance copy
-
-📞 Add phone number & real contact info
-
-🧩 Project Structure
-Code
+```text
 /
 ├── index.html
 ├── styles.css
 ├── script.js
 ├── assets/
+│   ├── hero-trailer-equipment.png
+│   ├── before-after-siding.jpg
 │   └── rider-wash-scene.svg
 └── README.md
-🔍 SEO Meta Tags (Copy into <head>)
-html
-<meta name="title" content="Shawn's Pressure Washing | Professional Exterior Cleaning">
-<meta name="description" content="Affordable pressure washing for homes, driveways, decks, patios, and storefronts. Instant quote estimator and easy booking.">
-<meta name="keywords" content="pressure washing, house wash, driveway cleaning, deck cleaning, exterior cleaning, power washing, Charleston pressure washing">
-<meta name="author" content="Angela Hudson">
-<meta property="og:title" content="Shawn's Pressure Washing">
-<meta property="og:description" content="Professional pressure washing with instant quote estimator.">
-<meta property="og:type" content="website">
-<meta property="og:image" content="https://raw.githubusercontent.com/DaCameraGirl/shawns-pressure-washing/main/assets/rider-wash-scene.svg">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+## 💵 Pricing Basis
+
+The estimator uses Ladson/Charleston-area pressure washing ranges researched in June 2026:
+
+| Service | Local Starting Logic |
+| --- | --- |
+| 🚗 Driveway / Concrete | Common local ranges around $150-$400, with driveway jobs also cited around $100-$350 |
+| 🏠 House Wash | Common ranges around $300-$600, with 1,500-2,000 sq ft Charleston homes around $400-$700 |
+| 🪵 Deck / Patio | Local deck/fence restoration ranges commonly around $200-$700 |
+| 🏪 Storefront / Light Commercial | Charleston commercial pressure washing cited around $0.34-$0.69 per sq ft, often starting around $500 |
+
+📌 These are planning estimates, not guaranteed quotes. Final prices should reflect local market, stain severity, water access, job minimums, insurance, chemicals, travel, and photos or site inspection.
+
+### 🔎 Sources Used
+
+- https://charlestonpressurewashpros.com/pricing/
+- https://bubblebrossc.com/infohub/costs.html
+- https://www.homeblue.com/pressure-washing/charleston-sc-pressure-washing-prices.htm
+- https://pressure-washing.promatcher.com/cost/charleston-sc-pressure-washing-costs-prices.aspx
+- https://washcharleston.com/how-much-does-pressure-washing-cost-in-charleston-sc/
+
+## 🖼️ Image Credits
+
+- Before/after siding wash photo: East Coast Powerwashing, CC BY-SA 3.0, via Wikimedia Commons.
+
+## 🖥️ Run Locally
+
+Open `index.html` in a browser.
+
+No installs. No build step. No dependencies.
+
+## 🚀 GitHub Pages
+
+This repo publishes from the `main` branch root with GitHub Pages.
+
+## 🛠️ Customize Next
+
+- 📧 Replace `shawn@example.com` in `script.js` with the real booking email.
+- ☎️ Add Shawn's real phone number.
+- 📍 Confirm exact service area and travel limits.
+- ⭐ Add testimonials and finished-job photos.
+- 🧾 Add insurance/licensing copy if Shawn wants it shown.

@@ -157,8 +157,8 @@ textarea {
 
 .hero-art {
   z-index: -3;
-  background-image: url("assets/hero-road-rig.png");
-  background-position: 64% center;
+  background-image: url("assets/hero-trailer-equipment.png");
+  background-position: 58% center;
   background-repeat: no-repeat;
   background-size: cover;
   transform: scale(1.01);
@@ -636,114 +636,25 @@ fieldset {
   margin: 0 auto;
 }
 
-.comparison {
-  position: relative;
-  height: 31rem;
-  overflow: hidden;
+.real-before-after {
+  margin: 0;
+}
+
+.real-before-after img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
   border: 4px solid rgba(248, 255, 248, 0.9);
   border-radius: 0.5rem;
   box-shadow: 0 24px 80px rgba(0, 0, 0, 0.38);
-  background:
-    linear-gradient(90deg, transparent 0 24%, rgba(255, 255, 255, 0.16) 24% 25%, transparent 25% 49%, rgba(255, 255, 255, 0.16) 49% 50%, transparent 50% 74%, rgba(255, 255, 255, 0.16) 74% 75%, transparent 75%),
-    repeating-linear-gradient(18deg, #96906d 0 16px, #7d795f 16px 32px);
 }
 
-.comparison::before,
-.comparison::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-}
-
-.comparison::before {
-  background:
-    radial-gradient(circle at 24% 58%, rgba(35, 49, 37, 0.5) 0 10%, transparent 11%),
-    radial-gradient(circle at 64% 46%, rgba(39, 52, 39, 0.44) 0 14%, transparent 15%),
-    radial-gradient(circle at 76% 70%, rgba(40, 49, 36, 0.38) 0 11%, transparent 12%);
-}
-
-.after-layer,
-.before-layer {
-  position: absolute;
-  inset: 0;
-}
-
-.after-layer {
-  background:
-    linear-gradient(90deg, rgba(240, 255, 255, 0.62), rgba(121, 226, 255, 0.32)),
-    repeating-linear-gradient(18deg, #e9e6ce 0 16px, #d6d2b9 16px 32px);
-}
-
-.after-layer::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    linear-gradient(90deg, transparent 0 24%, rgba(255, 255, 255, 0.38) 24% 25%, transparent 25% 49%, rgba(255, 255, 255, 0.38) 49% 50%, transparent 50% 74%, rgba(255, 255, 255, 0.38) 74% 75%, transparent 75%);
-}
-
-.before-layer {
-  width: 52%;
-  overflow: hidden;
-  background:
-    radial-gradient(circle at 24% 58%, rgba(22, 43, 25, 0.58) 0 10%, transparent 11%),
-    radial-gradient(circle at 64% 46%, rgba(33, 47, 28, 0.58) 0 14%, transparent 15%),
-    radial-gradient(circle at 76% 70%, rgba(53, 48, 31, 0.5) 0 11%, transparent 12%),
-    repeating-linear-gradient(18deg, #716d52 0 16px, #5f5b46 16px 32px);
-}
-
-.after-layer span,
-.before-layer span {
-  position: absolute;
-  top: 1rem;
-  padding: 0.55rem 0.85rem;
-  color: var(--ink);
-  background: var(--hazard);
-  border-radius: 999px;
-  font-weight: 1000;
-}
-
-.after-layer span {
-  right: 1rem;
-}
-
-.before-layer span {
-  left: 1rem;
-}
-
-.handle {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 52%;
-  width: 4px;
-  background: var(--foam);
-  box-shadow: 0 0 0 1px rgba(16, 22, 20, 0.2), 0 0 30px rgba(83, 215, 255, 0.8);
-}
-
-.handle::after {
-  content: "<>";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  display: grid;
-  place-items: center;
-  width: 4rem;
-  height: 4rem;
-  color: var(--ink);
-  background: var(--hazard);
-  border: 4px solid var(--foam);
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  font-weight: 1000;
-}
-
-.slider-label {
-  display: grid;
-  gap: 0.65rem;
-  margin: 1.2rem auto 0;
-  max-width: 32rem;
-  color: var(--foam);
+.real-before-after figcaption {
+  max-width: 54rem;
+  margin: 1rem auto 0;
+  color: rgba(248, 255, 248, 0.72);
+  font-size: 0.86rem;
+  font-weight: 800;
   text-align: center;
 }
 
@@ -883,7 +794,7 @@ fieldset {
   }
 
   .hero-art {
-    background-position: 72% center;
+    background-position: 64% center;
   }
 
   h1 {
@@ -930,10 +841,6 @@ fieldset {
   .intro-band p {
     max-width: 21rem;
     font-size: 1.55rem;
-  }
-
-  .comparison {
-    height: 23rem;
   }
 
   .site-footer {
