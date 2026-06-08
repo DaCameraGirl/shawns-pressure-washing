@@ -1,50 +1,115 @@
-# Shawn's Pressure Washing
+💦🧼 Shawn’s Pressure Washing
+A clean, friendly, GitHub Pages–ready site for a pressure washing business.
+<p align="center">
+<img src="https://raw.githubusercontent.com/DaCameraGirl/shawns-pressure-washing/main/assets/rider-wash-scene.svg" width="80%" />
+</p>
 
-A playful, GitHub Pages-ready starter site for a pressure washing business concept.
+🏷️ Badges
+<p align="center">
+<img src="https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge&logo=github" />
+<img src="https://img.shields.io/badge/Built%20With-HTML%20%7C%20CSS%20%7C%20JS-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Hosting-GitHub%20Pages-purple?style=for-the-badge&logo=githubpages" />
+<img src="https://img.shields.io/badge/Dependencies-None-ff69b4?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Estimator-Interactive-orange?style=for-the-badge" />
+</p>
 
-## What is included
+🌐 Live Demo
+🔗 https://dacameragirl.github.io/shawns-pressure-washing/ (dacameragirl.github.io in Bing)
 
-- Static `index.html`, `styles.css`, and `script.js`
-- Custom local SVG hero art in `assets/rider-wash-scene.svg`
-- Quote estimator
-- Interactive before/after slider
-- Mailto-based booking form
-- No build tools or dependencies required
+✨ Features
+🧽 Interactive Quote Estimator
 
-## Pricing basis
+🔄 Before/After Image Slider
 
-The estimator uses national-average pressure washing ranges researched in June 2026:
+🎨 Custom SVG Hero Art
 
-- Driveway/concrete: about $0.20-$0.30 per sq ft, with many driveway jobs around $100-$300.
-- House wash: about $0.10-$0.50 per sq ft, with common whole-house ranges around $200-$700.
-- Deck/patio: about $0.25-$0.35 per sq ft for many pressure washing jobs.
-- Storefront/light commercial: about $0.10-$0.40 per sq ft for larger surfaces, with small storefront jobs often quoted as flat-rate work.
+📬 Mailto‑based Booking Form
 
-These are planning estimates, not guaranteed quotes. Final prices should reflect local market, stain severity, water access, job minimums, insurance, chemicals, travel, and photos or site inspection.
+⚡ Zero Dependencies (pure HTML/CSS/JS)
 
-Sources used:
+📱 Mobile‑friendly layout
 
-- https://www.forbes.com/home-improvement/exterior/cost-to-pressure-wash-house/
-- https://www.angi.com/articles/how-much-does-pressure-washing-cost.htm
-- https://www.homeadvisor.com/cost/painting/powerwash-exterior-surfaces/
-- https://www.housecallpro.com/resources/how-to-price-pressure-washing-jobs/
-- https://pressurewashingfinder.com/report
+🌐 Instant GitHub Pages deployment
 
-## Run locally
+🌙 Dark Mode Preview
+<p align="center">
+<img src="https://raw.githubusercontent.com/DaCameraGirl/shawns-pressure-washing/main/assets/darkmode-preview.png" width="80%" />
+</p>
 
-Open `index.html` in a browser.
+(If you want, I can generate this preview image for real — just say the word.)
 
-## Publish on GitHub Pages
+💰 Pricing Logic (June 2026 Research)
+Service	Typical Range
+🚗 Driveway / Concrete	$0.20–$0.30 per sq ft (common $100–$300)
+🏡 House Wash	$0.10–$0.50 per sq ft (common $200–$700)
+🪵 Deck / Patio	$0.25–$0.35 per sq ft
+🏪 Storefront / Light Commercial	$0.10–$0.40 per sq ft
 
-1. Push this folder to a GitHub repository.
-2. In GitHub, open `Settings` -> `Pages`.
-3. Set `Source` to `Deploy from a branch`.
-4. Pick the `main` branch and `/root`.
-5. Save. GitHub will publish the site after the first Pages build.
 
-## Customize next
+📌 These are planning estimates — real quotes depend on stain severity, water access, chemicals, insurance, travel, and photos/site visits.
 
-- Replace `shawn@example.com` in `script.js` with the real booking email.
-- Update prices in the service `<option>` tags in `index.html`.
-- Swap the SVG mascot for real business photos when available.
-- Add service area, phone number, reviews, and real insurance/licensing copy.
+⭐ Why Choose Us
+🧼 Professional Results
+We use proper pressure and soft‑wash techniques to protect surfaces while restoring curb appeal.
+
+💵 Transparent Pricing
+The estimator gives customers a realistic starting point before booking.
+
+⚡ Fast Response
+Mailto booking means customers can reach out instantly from any device.
+
+🖼️ Visual Confidence
+Before/after slider shows real transformation potential.
+
+📱 Mobile‑First
+Designed to look great on phones, tablets, and desktops.
+
+🛠️ Run Locally
+Just open:
+
+Code
+index.html
+No installs. No build step. No dependencies.
+
+🚀 Deploy on GitHub Pages
+Push the folder to a GitHub repo
+
+Go to Settings → Pages
+
+Set Source: Deploy from a branch
+
+Choose main + /root
+
+Save & publish
+
+🔧 Customize Next
+✉️ Replace shawn@example.com in script.js
+
+💵 Update service prices in index.html
+
+📸 Swap SVG mascot for real business photos
+
+⭐ Add reviews, service area, insurance copy
+
+📞 Add phone number & real contact info
+
+🧩 Project Structure
+Code
+/
+├── index.html
+├── styles.css
+├── script.js
+├── assets/
+│   └── rider-wash-scene.svg
+└── README.md
+🔍 SEO Meta Tags (Copy into <head>)
+html
+<meta name="title" content="Shawn's Pressure Washing | Professional Exterior Cleaning">
+<meta name="description" content="Affordable pressure washing for homes, driveways, decks, patios, and storefronts. Instant quote estimator and easy booking.">
+<meta name="keywords" content="pressure washing, house wash, driveway cleaning, deck cleaning, exterior cleaning, power washing, Charleston pressure washing">
+<meta name="author" content="Angela Hudson">
+<meta property="og:title" content="Shawn's Pressure Washing">
+<meta property="og:description" content="Professional pressure washing with instant quote estimator.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://raw.githubusercontent.com/DaCameraGirl/shawns-pressure-washing/main/assets/rider-wash-scene.svg">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
