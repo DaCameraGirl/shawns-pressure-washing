@@ -61,7 +61,7 @@
     <ellipse cx="969" cy="205" rx="266" ry="34" fill="#091411" opacity="0.38"/>
   </g>
 
-  <g transform="translate(358 446)" filter="url(#softShadow)">
+  <g transform="translate(358 446)" filter="url(#softShadow)" opacity="0">
     <g>
       <circle cx="145" cy="258" r="116" fill="#101614"/>
       <circle cx="145" cy="258" r="83" fill="#232b27" stroke="#dbe9e8" stroke-width="10"/>
@@ -116,7 +116,7 @@
     </g>
   </g>
 
-  <g transform="translate(45 560)" filter="url(#softShadow)">
+  <g transform="translate(45 560)" filter="url(#softShadow)" opacity="0">
     <path d="M666 85 L786 96 L825 54" fill="none" stroke="url(#chrome)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
     <circle cx="828" cy="52" r="15" fill="#f8fff8" stroke="#101614" stroke-width="7"/>
     <path d="M157 105 H668 L694 171 H117 Z" fill="#171f1b" stroke="#f3f7ed" stroke-width="7" stroke-linejoin="round"/>
@@ -137,6 +137,77 @@
     <path d="M406 23 C435 43 454 43 478 23" fill="none" stroke="#eaffff" stroke-width="6" stroke-linecap="round"/>
     <path d="M658 69 L720 43" stroke="url(#chrome)" stroke-width="10" stroke-linecap="round"/>
     <path d="M716 42 L742 60" stroke="#101614" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g id="clean-rig" transform="translate(350 420) scale(0.78)" filter="url(#softShadow)">
+    <ellipse cx="650" cy="305" rx="575" ry="58" fill="#06100d" opacity="0.55"/>
+
+    <g id="work-trailer" transform="translate(120 118)">
+      <path d="M420 134 L555 150 L620 104" fill="none" stroke="url(#chrome)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="622" cy="103" r="16" fill="#f8fff8" stroke="#101614" stroke-width="7"/>
+      <path d="M58 118 H438 L488 198 H28 Z" fill="#171f1b" stroke="#101614" stroke-width="8" stroke-linejoin="round"/>
+      <rect x="78" y="44" width="360" height="116" rx="16" fill="#ffcf57" stroke="#101614" stroke-width="8"/>
+      <rect x="100" y="68" width="316" height="48" rx="8" fill="#f8fff8" stroke="#101614" stroke-width="5"/>
+      <text x="258" y="101" fill="#101614" font-family="Impact, 'Arial Black', sans-serif" font-size="33" text-anchor="middle" letter-spacing="1">PRESSURE WASHING</text>
+      <text x="258" y="139" fill="#101614" font-family="'Trebuchet MS', sans-serif" font-size="22" font-weight="900" text-anchor="middle">MOBILE WASH RIG</text>
+      <path d="M468 35 H590 C614 35 633 54 633 78 V157 H445 V58 C445 45 455 35 468 35 Z" fill="#eaffff" stroke="#101614" stroke-width="8"/>
+      <path d="M467 77 C510 61 571 61 613 77" fill="none" stroke="#53d7ff" stroke-width="10" stroke-linecap="round"/>
+      <circle cx="540" cy="116" r="40" fill="none" stroke="#f4663a" stroke-width="13"/>
+      <circle cx="540" cy="116" r="16" fill="#101614"/>
+      <path d="M493 166 C518 146 563 146 588 166" fill="none" stroke="#101614" stroke-width="9" stroke-linecap="round"/>
+      <rect x="34" y="181" width="470" height="32" rx="11" fill="#f4663a" stroke="#101614" stroke-width="7"/>
+      <circle cx="120" cy="220" r="47" fill="#101614"/>
+      <circle cx="120" cy="220" r="31" fill="#dbe9e8"/>
+      <circle cx="120" cy="220" r="13" fill="#53636b"/>
+      <circle cx="398" cy="220" r="47" fill="#101614"/>
+      <circle cx="398" cy="220" r="31" fill="#dbe9e8"/>
+      <circle cx="398" cy="220" r="13" fill="#53636b"/>
+    </g>
+
+    <g id="motorcycle" transform="translate(560 64)">
+      <circle cx="185" cy="318" r="94" fill="#101614"/>
+      <circle cx="185" cy="318" r="68" fill="#232b27" stroke="#dbe9e8" stroke-width="11"/>
+      <circle cx="185" cy="318" r="22" fill="url(#chrome)"/>
+      <circle cx="732" cy="318" r="104" fill="#101614"/>
+      <circle cx="732" cy="318" r="76" fill="#232b27" stroke="#dbe9e8" stroke-width="11"/>
+      <circle cx="732" cy="318" r="24" fill="url(#chrome)"/>
+      <path d="M244 304 L360 194 L512 207 L656 307" fill="none" stroke="url(#chrome)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M358 196 L311 318 H602 L512 207" fill="none" stroke="#101614" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M336 260 C424 202 546 203 625 257 C589 286 390 293 336 260 Z" fill="#f4663a" stroke="#101614" stroke-width="8"/>
+      <path d="M385 238 C458 212 535 214 586 239" fill="none" stroke="#ffcf57" stroke-width="10" stroke-linecap="round"/>
+      <path d="M502 192 C548 157 622 154 682 181 L639 221 C590 204 540 205 501 232 Z" fill="#101614"/>
+      <path d="M660 181 L744 190 L783 229 L660 228 Z" fill="#111714" stroke="#101614" stroke-width="6"/>
+      <path d="M772 226 C831 232 881 262 915 304" fill="none" stroke="url(#chrome)" stroke-width="15" stroke-linecap="round"/>
+      <circle cx="916" cy="304" r="42" fill="url(#headlight)"/>
+      <path d="M365 174 C404 134 474 130 531 160" fill="none" stroke="url(#chrome)" stroke-width="14" stroke-linecap="round"/>
+      <path d="M522 159 C565 145 622 116 650 88" fill="none" stroke="url(#chrome)" stroke-width="12" stroke-linecap="round"/>
+      <path d="M641 85 L714 80" fill="none" stroke="#101614" stroke-width="16" stroke-linecap="round"/>
+      <path d="M706 68 L744 93" fill="none" stroke="url(#chrome)" stroke-width="8" stroke-linecap="round"/>
+      <path d="M236 284 C211 258 206 232 221 200 C247 214 268 242 278 282 Z" fill="#101614"/>
+      <path d="M222 199 C190 194 162 210 145 238" fill="none" stroke="url(#chrome)" stroke-width="10" stroke-linecap="round"/>
+    </g>
+
+    <g id="rider" transform="translate(895 30)">
+      <path d="M150 245 C177 285 246 286 273 246 C317 276 339 332 332 405 C275 434 160 433 103 404 C98 331 113 276 150 245 Z" fill="#17211d" stroke="#101614" stroke-width="8" stroke-linejoin="round"/>
+      <path d="M177 269 C198 292 229 292 252 269 L274 388 C235 407 194 407 156 388 Z" fill="#ffcf57"/>
+      <path d="M130 302 L61 366 L91 405 L165 340 Z" fill="#17211d" stroke="#ffcf57" stroke-width="7" stroke-linejoin="round"/>
+      <path d="M300 302 L370 364 L339 406 L265 339 Z" fill="#17211d" stroke="#ffcf57" stroke-width="7" stroke-linejoin="round"/>
+      <path d="M352 363 L495 412" fill="none" stroke="#101614" stroke-width="17" stroke-linecap="round"/>
+      <path d="M484 408 L648 459" fill="none" stroke="url(#chrome)" stroke-width="12" stroke-linecap="round"/>
+      <circle cx="350" cy="364" r="21" fill="#f0bc91"/>
+      <path d="M73 404 C138 438 274 441 340 405 L363 508 L49 508 Z" fill="#151b18"/>
+      <path d="M91 422 C155 453 270 454 341 420" fill="none" stroke="#53d7ff" stroke-width="8" opacity="0.75"/>
+
+      <path d="M150 123 C162 78 207 55 253 68 C302 82 324 124 317 173 C311 222 274 254 225 253 C173 252 140 215 140 168 C140 151 143 137 150 123 Z" fill="#f0bc91" stroke="#101614" stroke-width="5"/>
+      <path d="M143 132 C158 72 212 39 266 58 C303 72 324 101 328 142 C298 119 262 112 227 123 C190 111 162 115 143 132 Z" fill="#f4c43d" stroke="#101614" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M158 95 C197 57 263 61 312 105 C268 90 209 91 158 123 Z" fill="#ffd96a"/>
+      <path d="M154 92 C188 50 262 48 316 94 C281 81 211 82 160 112 Z" fill="#101614" opacity="0"/>
+      <path d="M150 98 C190 73 266 73 323 98" fill="none" stroke="#f8fff8" stroke-width="8" stroke-linecap="round" opacity="0"/>
+      <path d="M167 159 C180 149 198 149 211 159" fill="none" stroke="#2c5cff" stroke-width="8" stroke-linecap="round"/>
+      <path d="M246 159 C259 149 277 149 290 159" fill="none" stroke="#2c5cff" stroke-width="8" stroke-linecap="round"/>
+      <path d="M190 201 C220 223 262 221 288 199" fill="none" stroke="#7a342b" stroke-width="8" stroke-linecap="round"/>
+      <path d="M181 185 C217 195 258 195 298 184" fill="none" stroke="#d7a77e" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+    </g>
   </g>
 
   <rect x="0" y="0" width="1600" height="950" fill="url(#foamDots)" opacity="0.22"/>
