@@ -9,6 +9,7 @@ const quoteMail = document.querySelector("#quote-mail");
 const bookingForm = document.querySelector("#booking-form");
 const formStatus = document.querySelector("#form-status");
 const year = document.querySelector("#year");
+const serviceCards = document.querySelectorAll(".service-card");
 
 const serviceLabels = {
   driveway: "Driveway cleanup",
@@ -45,6 +46,19 @@ function selectedGrime() {
 function selectedGrimeLabel() {
   const checked = [...grimeInputs].find((input) => input.checked);
   return checked?.nextElementSibling?.textContent?.toLowerCase() ?? "easy rinse";
+}
+
+function setServiceCardState(card, isFlipped) {
+  card.classList.toggle("is-flipped", isFlipped);
+  card.setAttribute("aria-pressed", String(isFlipped));
+}
+
+function toggleServiceCard(card) {
+  const shouldFlip = !card.classList.contains("is-flipped");
+
+  serviceCards.forEach((serviceCard) => {
+    setServiceCardState(serviceCard, serviceCard === card ? shouldFlip : false);
+  });
 }
 
 function updateQuote() {
@@ -93,6 +107,21 @@ function handleBookingSubmit(event) {
 [serviceSelect, sizeInput, sealantInput, ...grimeInputs].forEach((control) => {
   control.addEventListener("input", updateQuote);
   control.addEventListener("change", updateQuote);
+});
+
+serviceCards.forEach((card) => {
+  card.addEventListener("click", () => {
+    toggleServiceCard(card);
+  });
+
+  card.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter" && event.key !== " ") {
+      return;
+    }
+
+    event.preventDefault();
+    toggleServiceCard(card);
+  });
 });
 
 bookingForm.addEventListener("submit", handleBookingSubmit);
