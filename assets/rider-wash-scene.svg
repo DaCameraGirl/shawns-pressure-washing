@@ -143,18 +143,25 @@
     <ellipse cx="650" cy="305" rx="575" ry="58" fill="#06100d" opacity="0.55"/>
 
     <g id="work-trailer" transform="translate(120 118)">
-      <path d="M420 134 L555 150 L620 104" fill="none" stroke="url(#chrome)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
-      <circle cx="622" cy="103" r="16" fill="#f8fff8" stroke="#101614" stroke-width="7"/>
+      <path d="M488 198 L575 230 L653 276" fill="none" stroke="url(#chrome)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="653" cy="276" r="15" fill="#f8fff8" stroke="#101614" stroke-width="7"/>
       <path d="M58 118 H438 L488 198 H28 Z" fill="#171f1b" stroke="#101614" stroke-width="8" stroke-linejoin="round"/>
       <rect x="78" y="44" width="360" height="116" rx="16" fill="#ffcf57" stroke="#101614" stroke-width="8"/>
       <rect x="100" y="68" width="316" height="48" rx="8" fill="#f8fff8" stroke="#101614" stroke-width="5"/>
       <text x="258" y="101" fill="#101614" font-family="Impact, 'Arial Black', sans-serif" font-size="33" text-anchor="middle" letter-spacing="1">PRESSURE WASHING</text>
       <text x="258" y="139" fill="#101614" font-family="'Trebuchet MS', sans-serif" font-size="22" font-weight="900" text-anchor="middle">MOBILE WASH RIG</text>
-      <path d="M468 35 H590 C614 35 633 54 633 78 V157 H445 V58 C445 45 455 35 468 35 Z" fill="#eaffff" stroke="#101614" stroke-width="8"/>
-      <path d="M467 77 C510 61 571 61 613 77" fill="none" stroke="#53d7ff" stroke-width="10" stroke-linecap="round"/>
-      <circle cx="540" cy="116" r="40" fill="none" stroke="#f4663a" stroke-width="13"/>
-      <circle cx="540" cy="116" r="16" fill="#101614"/>
-      <path d="M493 166 C518 146 563 146 588 166" fill="none" stroke="#101614" stroke-width="9" stroke-linecap="round"/>
+      <rect x="456" y="58" width="104" height="82" rx="14" fill="#f8fff8" stroke="#101614" stroke-width="7"/>
+      <path d="M468 104 C492 94 526 94 548 104" fill="none" stroke="#53d7ff" stroke-width="9" stroke-linecap="round"/>
+      <path d="M474 126 H542" stroke="#101614" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
+      <g transform="translate(578 54)">
+        <path d="M0 92 H120 V55 C120 43 110 33 98 33 H22 C10 33 0 43 0 55 Z" fill="#17211d" stroke="#101614" stroke-width="7"/>
+        <circle cx="47" cy="54" r="31" fill="#101614"/>
+        <circle cx="47" cy="54" r="23" fill="none" stroke="#ffcf57" stroke-width="11"/>
+        <path d="M20 54 H74" stroke="#ffcf57" stroke-width="6" stroke-linecap="round"/>
+        <rect x="76" y="45" width="35" height="42" rx="7" fill="#f4663a" stroke="#101614" stroke-width="6"/>
+        <circle cx="94" cy="66" r="9" fill="#101614"/>
+      </g>
+      <path d="M488 166 C535 144 620 144 671 166" fill="none" stroke="#101614" stroke-width="9" stroke-linecap="round"/>
       <rect x="34" y="181" width="470" height="32" rx="11" fill="#f4663a" stroke="#101614" stroke-width="7"/>
       <circle cx="120" cy="220" r="47" fill="#101614"/>
       <circle cx="120" cy="220" r="31" fill="#dbe9e8"/>

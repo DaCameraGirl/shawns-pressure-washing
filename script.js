@@ -41,11 +41,13 @@ function updateQuote() {
   const selected = serviceSelect.selectedOptions[0];
   const service = serviceSelect.value;
   const size = Number(sizeInput.value);
-  const base = Number(selected.dataset.base);
+  const minimum = Number(selected.dataset.min);
   const rate = Number(selected.dataset.rate);
-  const grime = selectedGrime();
-  const sealant = sealantInput.checked ? Number(sealantInput.value) : 0;
-  const total = Math.ceil((base + size * rate + grime + sealant) / 5) * 5;
+  const basePrice = Math.max(minimum, size * rate);
+  const conditionCharge = basePrice * selectedGrime();
+  const protectantRate = Number(sealantInput.value);
+  const protectant = sealantInput.checked ? Math.max(75, size * protectantRate) : 0;
+  const total = Math.ceil((basePrice + conditionCharge + protectant) / 5) * 5;
   const sealantText = sealantInput.checked ? " plus protectant" : "";
   const summary = `${serviceLabels[service]} for ${size.toLocaleString()} sq ft with ${selectedGrimeLabel()}${sealantText}.`;
 

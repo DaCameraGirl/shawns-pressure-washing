@@ -157,18 +157,18 @@ textarea {
 
 .hero-art {
   z-index: -3;
-  background-image: url("assets/rider-wash-scene.svg");
-  background-position: 58% center;
+  background-image: url("assets/hero-road-rig.png");
+  background-position: 64% center;
   background-repeat: no-repeat;
   background-size: cover;
-  transform: scale(1.02);
+  transform: scale(1.01);
 }
 
 .hero-overlay {
   z-index: -2;
   background:
-    linear-gradient(90deg, rgba(10, 14, 12, 0.94) 0%, rgba(10, 14, 12, 0.74) 36%, rgba(10, 14, 12, 0.16) 68%, rgba(10, 14, 12, 0.42) 100%),
-    linear-gradient(0deg, rgba(16, 22, 20, 0.88) 0%, rgba(16, 22, 20, 0.08) 34%);
+    linear-gradient(90deg, rgba(10, 14, 12, 0.96) 0%, rgba(10, 14, 12, 0.82) 31%, rgba(10, 14, 12, 0.28) 61%, rgba(10, 14, 12, 0.08) 100%),
+    linear-gradient(0deg, rgba(16, 22, 20, 0.74) 0%, rgba(16, 22, 20, 0.14) 39%);
 }
 
 .hero::after {

@@ -99,17 +99,17 @@
         <div class="section-heading">
           <p class="eyebrow">Quick estimate</p>
           <h2 id="quote-title">Price the wash before Shawn rolls out.</h2>
-          <p>Use the estimator to rough in the job. Final pricing can still change after photos or a site visit.</p>
+          <p>Uses current national pressure washing ranges as a starting point. Final pricing can still change after photos, access, stains, water availability, and local market rates.</p>
         </div>
 
         <div class="quote-tool" aria-label="Pressure washing quote estimator">
           <form class="quote-controls" id="quote-form">
             <label for="service">Service</label>
             <select id="service" name="service">
-              <option value="driveway" data-base="95" data-rate="0.14">Driveway</option>
-              <option value="house" data-base="160" data-rate="0.1">House wash</option>
-              <option value="deck" data-base="125" data-rate="0.16">Deck or patio</option>
-              <option value="storefront" data-base="145" data-rate="0.12">Storefront</option>
+              <option value="driveway" data-min="150" data-rate="0.25">Driveway</option>
+              <option value="house" data-min="225" data-rate="0.20">House wash</option>
+              <option value="deck" data-min="150" data-rate="0.35">Deck or patio</option>
+              <option value="storefront" data-min="200" data-rate="0.20">Storefront</option>
             </select>
 
             <label for="size">Approximate square feet</label>
@@ -126,26 +126,26 @@
                   <span>Easy rinse</span>
                 </label>
                 <label>
-                  <input type="radio" name="grime" value="35">
+                  <input type="radio" name="grime" value="0.15">
                   <span>Green haze</span>
                 </label>
                 <label>
-                  <input type="radio" name="grime" value="70">
+                  <input type="radio" name="grime" value="0.30">
                   <span>Deep grime</span>
                 </label>
               </div>
             </fieldset>
 
             <label class="toggle">
-              <input type="checkbox" id="sealant" name="sealant" value="55">
+              <input type="checkbox" id="sealant" name="sealant" value="0.12">
               <span>Add post-wash protectant</span>
             </label>
           </form>
 
           <aside class="quote-result" aria-live="polite">
             <span class="result-label">Estimated total</span>
-            <strong id="quote-total">$263</strong>
-            <p id="quote-summary">Driveway cleanup for 1200 sq ft with an easy rinse.</p>
+            <strong id="quote-total">$300</strong>
+            <p id="quote-summary">Driveway cleanup for 1,200 sq ft with an easy rinse.</p>
             <a class="button primary" id="quote-mail" href="#book"><span aria-hidden="true">></span> Ask about this job</a>
           </aside>
         </div>
