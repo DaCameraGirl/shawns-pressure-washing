@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Shawn's Pressure Washing is a polished GitHub Pages-ready service site with a quote estimator, before and after slider, and booking flow.">
+    <title>Shawn's Pressure Washing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Shawn's Pressure Washing home">
+        <span class="brand-mark" aria-hidden="true">SPW</span>
+        <span>
+          <strong>Shawn's</strong>
+          <small>Pressure Washing</small>
+        </span>
+      </a>
+      <nav class="nav-links" aria-label="Site sections">
+        <a href="#services">Services</a>
+        <a href="#quote">Quote</a>
+        <a href="#work">Before/After</a>
+        <a href="#book">Book</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-art" aria-hidden="true"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Mobile cleanups with cruiser-level style</p>
+          <h1 id="hero-title">Shawn's Pressure Washing</h1>
+          <p class="hero-copy">
+            Driveways, decks, siding, patios, and storefronts cleaned by a blonde, blue-eyed rider mascot towing a full pressure washing rig behind a Harley-style cruiser.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#quote"><span aria-hidden="true">~</span> Build a quote</a>
+            <a class="button secondary" href="#work"><span aria-hidden="true">+</span> See the shine</a>
+          </div>
+          <dl class="hero-stats" aria-label="Service highlights">
+            <div>
+              <dt>2 hr</dt>
+              <dd>quick driveway refresh</dd>
+            </div>
+            <div>
+              <dt>3200 PSI</dt>
+              <dd>pro-grade surface cleaning</dd>
+            </div>
+            <div>
+              <dt>Local</dt>
+              <dd>friendly neighborhood route</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="intro-band" aria-label="Service promise">
+        <p>Clean concrete, bright siding, tidy edges, and no boring contractor website energy.</p>
+      </section>
+
+      <section class="section section-light" id="services" aria-labelledby="services-title">
+        <div class="section-heading">
+          <p class="eyebrow">What we clean</p>
+          <h2 id="services-title">Pressure washing with personality.</h2>
+          <p>Start with the core services, then swap names, prices, and service area as this grows into the real business page.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">01</span>
+            <h3>Driveways</h3>
+            <p>Oil haze, tire marks, pollen crust, and mystery stains get blasted into a clean curb-view finish.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">02</span>
+            <h3>House Wash</h3>
+            <p>Low-pressure siding rinse for algae, dust, and cobwebs without beating up paint or trim.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">03</span>
+            <h3>Decks + Patios</h3>
+            <p>Foam, rinse, and reveal the warm surface underneath without making everything feel sterile.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">04</span>
+            <h3>Storefronts</h3>
+            <p>Walkways, entry pads, gum spots, and first-impression zones cleaned before customers arrive.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section quote-section" id="quote" aria-labelledby="quote-title">
+        <div class="section-heading">
+          <p class="eyebrow">Quick estimate</p>
+          <h2 id="quote-title">Price the wash before Shawn rolls out.</h2>
+          <p>Use the estimator to rough in the job. Final pricing can still change after photos or a site visit.</p>
+        </div>
+
+        <div class="quote-tool" aria-label="Pressure washing quote estimator">
+          <form class="quote-controls" id="quote-form">
+            <label for="service">Service</label>
+            <select id="service" name="service">
+              <option value="driveway" data-base="95" data-rate="0.14">Driveway</option>
+              <option value="house" data-base="160" data-rate="0.1">House wash</option>
+              <option value="deck" data-base="125" data-rate="0.16">Deck or patio</option>
+              <option value="storefront" data-base="145" data-rate="0.12">Storefront</option>
+            </select>
+
+            <label for="size">Approximate square feet</label>
+            <div class="range-row">
+              <input id="size" name="size" type="range" min="250" max="5000" value="1200" step="50">
+              <output id="size-output" for="size">1200 sq ft</output>
+            </div>
+
+            <fieldset>
+              <legend>Surface mood</legend>
+              <div class="segmented" role="radiogroup" aria-label="Surface condition">
+                <label>
+                  <input type="radio" name="grime" value="0" checked>
+                  <span>Easy rinse</span>
+                </label>
+                <label>
+                  <input type="radio" name="grime" value="35">
+                  <span>Green haze</span>
+                </label>
+                <label>
+                  <input type="radio" name="grime" value="70">
+                  <span>Deep grime</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <label class="toggle">
+              <input type="checkbox" id="sealant" name="sealant" value="55">
+              <span>Add post-wash protectant</span>
+            </label>
+          </form>
+
+          <aside class="quote-result" aria-live="polite">
+            <span class="result-label">Estimated total</span>
+            <strong id="quote-total">$263</strong>
+            <p id="quote-summary">Driveway cleanup for 1200 sq ft with an easy rinse.</p>
+            <a class="button primary" id="quote-mail" href="#book"><span aria-hidden="true">></span> Ask about this job</a>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="eyebrow">Before and after</p>
+          <h2 id="work-title">Drag through the driveway glow-up.</h2>
+        </div>
+
+        <div class="before-after">
+          <div class="comparison" id="comparison" aria-label="Interactive before and after comparison">
+            <div class="after-layer">
+              <span>After</span>
+            </div>
+            <div class="before-layer" id="before-layer">
+              <span>Before</span>
+            </div>
+            <div class="handle" id="comparison-handle" aria-hidden="true"></div>
+          </div>
+          <label class="slider-label" for="comparison-slider">
+            Compare clean line
+            <input id="comparison-slider" type="range" min="10" max="90" value="52">
+          </label>
+        </div>
+      </section>
+
+      <section class="section route-section" aria-labelledby="route-title">
+        <div class="route-copy">
+          <p class="eyebrow">The mascot</p>
+          <h2 id="route-title">Middle-aged, bright-eyed, and built for curb appeal.</h2>
+          <p>
+            The first pass gives the repo its character: a friendly blonde rider on a cruiser, blue eyes, work gloves, pressure wand, and a tow-behind trailer with a tank, hose reel, and pump setup. It is playful enough for a starter concept and practical enough to evolve into a real local services site.
+          </p>
+        </div>
+        <div class="route-notes" aria-label="Brand notes">
+          <p><strong>Vibe:</strong> cute contractor mascot meets chrome-and-foam weekend ride.</p>
+          <p><strong>Next build:</strong> add real photos, service area, testimonials, and a booking backend.</p>
+        </div>
+      </section>
+
+      <section class="section booking-section" id="book" aria-labelledby="book-title">
+        <div class="section-heading">
+          <p class="eyebrow">Book a rinse</p>
+          <h2 id="book-title">Tell Shawn what needs blasting.</h2>
+        </div>
+
+        <form class="booking-form" id="booking-form">
+          <div class="field-grid">
+            <label>
+              Name
+              <input type="text" name="name" autocomplete="name" required>
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" autocomplete="email" required>
+            </label>
+            <label>
+              Service address
+              <input type="text" name="address" autocomplete="street-address" required>
+            </label>
+            <label>
+              Preferred service
+              <select name="preferred">
+                <option>Driveway</option>
+                <option>House wash</option>
+                <option>Deck or patio</option>
+                <option>Storefront</option>
+              </select>
+            </label>
+          </div>
+          <label>
+            Notes
+            <textarea name="notes" rows="5" placeholder="Gate codes, stain details, water access, or best time to stop by"></textarea>
+          </label>
+          <div class="form-actions">
+            <button class="button primary" type="submit"><span aria-hidden="true">></span> Create email request</button>
+            <p id="form-status" role="status"></p>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Shawn's Pressure Washing. Built for GitHub Pages.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
