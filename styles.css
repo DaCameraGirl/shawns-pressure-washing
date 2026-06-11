@@ -157,8 +157,9 @@ textarea {
 
 .hero-art {
   z-index: -3;
-  background-image: url("assets/hero-trailer-equipment.png");
-  background-position: 58% center;
+  background-color: #dff9ff;
+  background-image: url("assets/hero-service-truck.svg");
+  background-position: 62% center;
   background-repeat: no-repeat;
   background-size: cover;
   transform: scale(1.015);
@@ -945,7 +946,7 @@ fieldset {
   }
 
   .hero-art {
-    background-position: 67% center;
+    background-position: 72% center;
   }
 
   h1 {

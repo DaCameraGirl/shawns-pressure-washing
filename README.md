@@ -13,7 +13,7 @@
 
 ## ✨ What It Does
 
-- 🏍️ Shows a trailer/equipment hero image with the anonymous rider cropped out
+- Shows a custom service-truck hero illustration with pressure washing branding
 - 💵 Estimates local pressure washing jobs using Ladson/Charleston-area pricing ranges
 - 🧼 Shows a real siding wash before/after photo
 - 📬 Creates email-based quote and booking requests
@@ -37,9 +37,9 @@
 ├── styles.css
 ├── script.js
 ├── assets/
-│   ├── hero-trailer-equipment.png
+│   ├── hero-service-truck.svg
 │   ├── before-after-siding.jpg
-│   └── rider-wash-scene.svg
+│   └── service-storefront-wash.jpg
 └── README.md
 ```
 
