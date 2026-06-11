@@ -39,6 +39,7 @@
 ├── assets/
 │   ├── hero-service-truck.svg
 │   ├── before-after-siding.jpg
+│   ├── site-qr.png
 │   └── service-storefront-wash.jpg
 └── README.md
 ```
