@@ -48,7 +48,7 @@
 </p>
 
 <p align="center"><img src="docs/readme-divider.svg" width="720" alt="" /></p>
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=070b14&height=50&section=header&text=%E2%9C%A8%20What%20It%20Does&fontSize=22&fontColor=e6edf3" width="720" alt="✨ What It Does" /></p>
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:070b14,100:12102a&height=50&section=header&text=%E2%9C%A8%20What%20It%20Does&fontSize=22&fontColor=e6edf3&animation=twinkling" width="720" alt="✨ What It Does" /></p>
 
 
 - Shows a custom service-truck hero illustration with pressure washing branding
@@ -59,7 +59,7 @@
 - 🚀 Runs as a static site on GitHub Pages with no backend required
 
 <p align="center"><img src="docs/readme-divider.svg" width="720" alt="" /></p>
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=070b14&height=50&section=header&text=%F0%9F%A7%B0%20Languages%20Used&fontSize=22&fontColor=e6edf3" width="720" alt="🧰 Languages Used" /></p>
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:070b14,100:12102a&height=50&section=header&text=%F0%9F%A7%B0%20Languages%20Used&fontSize=22&fontColor=e6edf3&animation=twinkling" width="720" alt="🧰 Languages Used" /></p>
 
 
 | Language | Used For |
@@ -70,7 +70,7 @@
 | 📝 Markdown | README, project notes, pricing sources, and documentation |
 
 <p align="center"><img src="docs/readme-divider.svg" width="720" alt="" /></p>
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=070b14&height=50&section=header&text=%F0%9F%93%81%20Project%20Files&fontSize=22&fontColor=e6edf3" width="720" alt="📁 Project Files" /></p>
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:070b14,100:12102a&height=50&section=header&text=%F0%9F%93%81%20Project%20Files&fontSize=22&fontColor=e6edf3&animation=twinkling" width="720" alt="📁 Project Files" /></p>
 
 
 ```text
@@ -87,7 +87,7 @@
 ```
 
 <p align="center"><img src="docs/readme-divider.svg" width="720" alt="" /></p>
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=070b14&height=50&section=header&text=%F0%9F%92%B5%20Pricing%20Basis&fontSize=22&fontColor=e6edf3" width="720" alt="💵 Pricing Basis" /></p>
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:070b14,100:12102a&height=50&section=header&text=%F0%9F%92%B5%20Pricing%20Basis&fontSize=22&fontColor=e6edf3&animation=twinkling" width="720" alt="💵 Pricing Basis" /></p>
 
 
 The estimator uses Ladson/Charleston-area pressure washing ranges researched in June 2026:
@@ -110,13 +110,13 @@ The estimator uses Ladson/Charleston-area pressure washing ranges researched in 
 - https://washcharleston.com/how-much-does-pressure-washing-cost-in-charleston-sc/
 
 <p align="center"><img src="docs/readme-divider.svg" width="720" alt="" /></p>
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=070b14&height=50&section=header&text=%F0%9F%96%BC%EF%B8%8F%20Image%20Credits&fontSize=22&fontColor=e6edf3" width="720" alt="🖼️ Image Credits" /></p>
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:070b14,100:12102a&height=50&section=header&text=%F0%9F%96%BC%EF%B8%8F%20Image%20Credits&fontSize=22&fontColor=e6edf3&animation=twinkling" width="720" alt="🖼️ Image Credits" /></p>
 
 
 - Before/after siding wash photo: East Coast Powerwashing, CC BY-SA 3.0, via Wikimedia Commons.
 
 <p align="center"><img src="docs/readme-divider.svg" width="720" alt="" /></p>
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=070b14&height=50&section=header&text=%F0%9F%96%A5%EF%B8%8F%20Run%20Locally&fontSize=22&fontColor=e6edf3" width="720" alt="🖥️ Run Locally" /></p>
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:070b14,100:12102a&height=50&section=header&text=%F0%9F%96%A5%EF%B8%8F%20Run%20Locally&fontSize=22&fontColor=e6edf3&animation=twinkling" width="720" alt="🖥️ Run Locally" /></p>
 
 
 Open `index.html` in a browser.
@@ -124,13 +124,13 @@ Open `index.html` in a browser.
 No installs. No build step. No dependencies.
 
 <p align="center"><img src="docs/readme-divider.svg" width="720" alt="" /></p>
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=070b14&height=50&section=header&text=%F0%9F%9A%80%20GitHub%20Pages&fontSize=22&fontColor=e6edf3" width="720" alt="🚀 GitHub Pages" /></p>
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:070b14,100:12102a&height=50&section=header&text=%F0%9F%9A%80%20GitHub%20Pages&fontSize=22&fontColor=e6edf3&animation=twinkling" width="720" alt="🚀 GitHub Pages" /></p>
 
 
 This repo publishes from the `main` branch root with GitHub Pages.
 
 <p align="center"><img src="docs/readme-divider.svg" width="720" alt="" /></p>
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=070b14&height=50&section=header&text=%F0%9F%9B%A0%EF%B8%8F%20Customize%20Next&fontSize=22&fontColor=e6edf3" width="720" alt="🛠️ Customize Next" /></p>
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:070b14,100:12102a&height=50&section=header&text=%F0%9F%9B%A0%EF%B8%8F%20Customize%20Next&fontSize=22&fontColor=e6edf3&animation=twinkling" width="720" alt="🛠️ Customize Next" /></p>
 
 
 - 📧 Replace `shawn@example.com` in `script.js` with the real booking email.
